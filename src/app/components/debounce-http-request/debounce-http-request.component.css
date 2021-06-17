@@ -1,0 +1,4 @@
+mat-list {
+  max-height: 70vh;
+  overflow: auto;
+}

@@ -1,0 +1,15 @@
+<div class="container">
+  <h1>Debouncing User Input</h1>
+  <p>My very first RxJS project</p>
+  <form>
+    <mat-form-field>
+      <mat-label>Your Name:</mat-label>
+      <input matInput [formControl]="input" autocomplete="off" />
+    </mat-form-field>
+  </form>
+  <h2 *ngIf="output">Output value: {{ output }}</h2>
+  <p *ngIf="output">
+    (Note: Output value is input value, which gets updated half a second after
+    typing stops)
+  </p>
+</div>
